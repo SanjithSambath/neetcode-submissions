@@ -14,7 +14,7 @@ class Solution:
                 bottom = middle + 1
             
             if target < nums[middle]:
-                top = top - 1
+                top = middle - 1
             
         return -1
             
